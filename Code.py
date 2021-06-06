@@ -16,3 +16,5 @@ if numalpha+numdigits+numspchar >= 8:
     tempdigits=tempdigits+(random.choice(string.digits))
   for i in range(numspchar):
     tempspchar=tempspchar+(random.choice('!@$%^&*?'))
+
+    password=tempalpha+tempdigits+tempspchar
