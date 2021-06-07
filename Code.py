@@ -18,3 +18,7 @@ if numalpha+numdigits+numspchar >= 8:
     tempspchar=tempspchar+(random.choice('!@$%^&*?'))
 
     password=tempalpha+tempdigits+tempspchar
+
+    password=list(password)
+    random.shuffle(password)
+    password=''.join(password)
