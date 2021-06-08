@@ -22,3 +22,5 @@ if numalpha+numdigits+numspchar >= 8:
     password=list(password)
     random.shuffle(password)
     password=''.join(password)
+
+    print(f'\nThe generated password: {password}')
