@@ -24,3 +24,4 @@ if numalpha+numdigits+numspchar >= 8:
     password=''.join(password)
 
     print(f'\nThe generated password: {password}')
+else:
