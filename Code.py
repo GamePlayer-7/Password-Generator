@@ -25,3 +25,5 @@ if numalpha+numdigits+numspchar >= 8:
 
     print(f'\nThe generated password: {password}')
 else:
+    
+  print("The password should be minimum 8 characters long.")
